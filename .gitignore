@@ -1,0 +1,6 @@
+.pio
+.vscode/
+platformio.ini
+test/
+.DS_Store
+.idea/
