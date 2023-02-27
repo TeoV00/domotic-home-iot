@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html > body > main {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+html > body > main > section > ul,
+html > body > main > section > ul > li > ul  {
+    list-style: none;
+}
+html > body > main > section > ul {
+    padding: 10px 8%;
+}
+
+html > body > main > section > ul > li > ul {
+    padding: 10px, 10%;
+    margin: 10px;
+}
+
+html > body > main > section > ul > li {
+    margin: 10px 1%;
+    background: #f0faff;
+    padding: 5px 2%;
+    border-radius: 10px;
+}
+
+html > body > main > section {
+    background-color: #B3E5FC;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+html > body > main > section > header {
+    background-color: #0087d5;
+    margin: 0px;
+    padding: 10px 5%;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+html > body > main > section > header > * {
+    margin: 0;
+}
+
+html > body > main > section > header > h2 {
+    margin: 5px 0 5px 0;
+}
+
+html > body > footer {
+    text-align: center;
+}

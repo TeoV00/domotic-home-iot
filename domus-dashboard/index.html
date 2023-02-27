@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Smart Garden Dashboard</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Domus Dashboard</h1>
+            <p>Stato connessione app: <span id="btState"></span></p>
+        </header>
+        <main>
+            <section>
+                <header>
+                    <h2>Home State</h2>
+                    <p>Ultimo aggironamento: <span id="lastUpdateHome"></span></p>
+                </header>
+                <ul>
+                    <li> <h3>Illuminazione</h3>
+                        <ul>
+                            <li>Luci interne: <span id="inLight"></span></li>
+                            <li>Lampioncini giardino: <span id="outLight"></span> /255</li>
+                        </ul>
+                    </li>
+                    <li><h3>Stato Allarme:</h3><span id="alarmState"></span></li>
+                    <li><h3>Riscaldamento</h3>
+                        <ul>
+                            <li>Stato: <span id="heatSysPwr"></span></li>
+                            <li>Temperatura impostata: <span id="heatTemp"></span>&degC</li>
+                        </ul>
+                    </li>
+                    <li><h3>Stato Garage: <span id="garageState"></span><h3></li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2>Sensors</h2>
+                    <p>Ultimo aggiornamento: <span id="lastUpdateSensors"></span></p>
+                </header>
+                
+                <ul>
+                    <li>
+                        <p>Intensit&agrave luce esterna: <span id="extLight"></span> /4096</p>
+                    </li>
+                    <li>
+                        <p>Temperatura interna rilevata: <span id="temp"></span>&degC</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Progetto di Iot - Matteo Violani 2023</p>
+        </footer>
+    </body>
+   
+</html>
