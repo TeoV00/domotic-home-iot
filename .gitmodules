@@ -4,4 +4,4 @@
 
 [submodule "domus-hub"]
 	path = domus-hub
-	url = git://github.com/TeoV00/domus-hub.git
+	url = https://github.com/TeoV00/domus-hub.git
