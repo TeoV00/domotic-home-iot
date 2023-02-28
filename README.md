@@ -21,3 +21,11 @@ Il report generale del progetto invece è consultabile [qui](./doc/report.pdf).
 ### Link video dimostrativo: 
 [Domotic Home Video](https://liveunibo-my.sharepoint.com/personal/matteo_violani_studio_unibo_it/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmatteo%5Fviolani%5Fstudio%5Funibo%5Fit%2FDocuments%2Fprogetto%20Iot%2FDomotic%20Home%20%2D%20Progetto%20iot%2Emp4&ga=1)
 
+### Istruzioni per clonare correttamente
+
+Per clonare questo repo con anche i sottomoduli (submodule) domus-app e domus-hub occorre indicare anche il flag ```--recurse-submodules``` nella fase di clone del repo.
+
+Il comando completo:
+```
+git clone --recurse-submodules git@github.com:TeoV00/domotic-home-iot.git
+```
