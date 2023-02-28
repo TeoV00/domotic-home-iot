@@ -1,0 +1,7 @@
+[submodule "domus-app"]
+	path = domus-app
+	url = git://github.com:TeoV00/domus-app.git
+
+[submodule "domus-hub"]
+	path = domus-hub
+	url = git://github.com/TeoV00/domus-hub.git
